@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_meeting_invitation"
+        tools:context=".activities.IncomingInvitationActivity">
+
+        <ImageView
+            android:id="@+id/imageMeetingType"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/ic_facetime"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/colorTextIcons" />
+
+        <TextView
+            android:id="@+id/textSendingInvitation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/sending_meeting_invitation"
+            android:textColor="@color/colorTextIcons"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintTop_toBottomOf="@id/imageMeetingType" />
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/iconImage"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:background="@drawable/background_white_circle"
+                android:fontFamily="@font/ubuntu_bold"
+                android:gravity="center"
+                android:includeFontPadding="false" />
+
+            <TextView
+                android:id="@+id/textUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:textColor="@color/colorTextIcons"
+                android:textSize="@dimen/_18ssp" />
+
+            <TextView
+                android:id="@+id/waitingText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/ubuntu_medium"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/waiting_for_response"
+                android:textColor="@color/colorTextIcons"
+                android:textSize="@dimen/_15ssp"
+                app:layout_constraintTop_toBottomOf="@id/imageMeetingType" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageStopInvitation"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:background="@drawable/background_reject_invitation"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/_8sdp"
+            android:src="@drawable/ic_reject"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:tint="@color/colorTextIcons" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

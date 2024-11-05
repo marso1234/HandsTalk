@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:id="@+id/profile_image_view"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/background_white_circle"
+        android:backgroundTint="@color/colorPrimary"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_avatar" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:background="@color/chatroomBackground"
+        android:elevation="5dp"
+        android:id="@+id/profile_username"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Email"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:background="@color/chatroomBackground"
+        android:elevation="5dp"
+        android:enabled="false"
+        android:id="@+id/profile_email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Friend Id"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:background="@color/chatroomBackground"
+        android:elevation="5dp"
+        android:enabled="false"
+        android:id="@+id/profile_friendId"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_sender"
+            android:text="@string/update_profile"
+            android:id="@+id/profle_update_btn"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_sender"
+            android:text="@string/logout"
+            android:layout_marginTop="20dp"
+            android:id="@+id/logout_btn"/>
+
+        <ProgressBar
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/profile_progress_bar"/>
+    </LinearLayout>
+</LinearLayout>
