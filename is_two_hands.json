@@ -1,0 +1,273 @@
+{
+    "a": {
+        "0": false
+    },
+    "all": {
+        "0": true,
+        "1": false
+    },
+    "apple": {
+        "0": false
+    },
+    "ask": {
+        "0": false
+    },
+    "b": {
+        "0": false
+    },
+    "basketball": {
+        "0": true
+    },
+    "bird": {
+        "0": false
+    },
+    "black": {
+        "0": false
+    },
+    "blue": {
+        "0": false
+    },
+    "but": {
+        "0": true,
+        "1": false
+    },
+    "c": {
+        "0": false
+    },
+    "chair": {
+        "0": true
+    },
+    "cheat": {
+        "0": true,
+        "1": true
+    },
+    "clothes": {
+        "0": true
+    },
+    "cow": {
+        "0": true
+    },
+    "d": {
+        "0": false
+    },
+    "dance": {
+        "0": true
+    },
+    "dark": {
+        "0": true,
+        "1": true
+    },
+    "delete": {
+        "0": true
+    },
+    "dog": {
+        "0": false,
+        "1": false
+    },
+    "drink": {
+        "0": false
+    },
+    "e": {
+        "0": false
+    },
+    "eat": {
+        "0": false
+    },
+    "enjoy": {
+        "0": true
+    },
+    "f": {
+        "0": false
+    },
+    "family": {
+        "0": true
+    },
+    "finish": {
+        "0": true,
+        "1": false
+    },
+    "forget": {
+        "0": false
+    },
+    "g": {
+        "0": false
+    },
+    "go": {
+        "0": true,
+        "1": false
+    },
+    "goodbye": {
+        "0": false
+    },
+    "h": {
+        "0": false
+    },
+    "happy": {
+        "0": true,
+        "1": false
+    },
+    "hearing": {
+        "0": false
+    },
+    "hello": {
+        "0": false
+    },
+    "help": {
+        "0": true
+    },
+    "i": {
+        "0": false
+    },
+    "j": {
+        "0": false
+    },
+    "jacket": {
+        "0": true
+    },
+    "k": {
+        "0": false
+    },
+    "kiss": {
+        "0": true,
+        "1": true
+    },
+    "l": {
+        "0": false
+    },
+    "language": {
+        "0": true,
+        "1": true
+    },
+    "last": {
+        "0": true,
+        "1": false
+    },
+    "later": {
+        "0": false,
+        "1": true
+    },
+    "like": {
+        "0": false,
+        "1": false
+    },
+    "m": {
+        "0": false
+    },
+    "many": {
+        "0": true
+    },
+    "me": {
+        "0": false
+    },
+    "meet": {
+        "0": true
+    },
+    "mother": {
+        "0": false
+    },
+    "n": {
+        "0": false
+    },
+    "need": {
+        "0": false
+    },
+    "no": {
+        "0": false
+    },
+    "o": {
+        "0": false
+    },
+    "orange": {
+        "0": false
+    },
+    "p": {
+        "0": false
+    },
+    "paint": {
+        "0": true
+    },
+    "paper": {
+        "0": true
+    },
+    "play": {
+        "0": true
+    },
+    "q": {
+        "0": false
+    },
+    "r": {
+        "0": false
+    },
+    "right": {
+        "0": true,
+        "1": false
+    },
+    "s": {
+        "0": false
+    },
+    "school": {
+        "0": true
+    },
+    "see": {
+        "0": false
+    },
+    "son": {
+        "0": true
+    },
+    "sorry": {
+        "0": false
+    },
+    "Start&End": {
+        "0": true
+    },
+    "t": {
+        "0": false
+    },
+    "thank you": {
+        "0": false
+    },
+    "thin": {
+        "0": true,
+        "1": false
+    },
+    "time": {
+        "0": true
+    },
+    "today": {
+        "0": true
+    },
+    "tomorrow": {
+        "0": false
+    },
+    "u": {
+        "0": false
+    },
+    "v": {
+        "0": false
+    },
+    "w": {
+        "0": false
+    },
+    "white": {
+        "0": false
+    },
+    "x": {
+        "0": false
+    },
+    "y": {
+        "0": false
+    },
+    "yes": {
+        "0": false
+    },
+    "yesterday": {
+        "0": false,
+        "1": false
+    },
+    "you": {
+        "0": false
+    },
+    "z": {
+        "0": false
+    }
+}
